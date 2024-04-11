@@ -122,6 +122,9 @@
     }
 
     .tactic{  
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
         font-size: 2rem;
         /* background-color: rgb(27, 27, 27, 0.2); */
         color:rgb(250, 246, 239);
@@ -144,4 +147,30 @@
     width: 300px;
     height:300px;
 
+    }
+
+    .Conclusion{
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0px;
+        display: flex;
+        background-color: rgba(22, 20, 20, 0.80);
+        padding:50px;
+        justify-content: center;
+        color: rgb(250, 246, 239);
+    }
+
+    .conclusion-title{
+        
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .conclusion-body{
+        font-size: 1.5rem;
+        text-indent: 4rem;
     }
