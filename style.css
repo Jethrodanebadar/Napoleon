@@ -1,0 +1,147 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        background-image: url('images/cover1.png');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-attachment: fixed;
+        height: 100vh;
+    
+    }
+
+    .header{
+        display: flex;
+        width: auto;
+        height: 100%;
+    }
+
+    .Title{
+        /* background-color: bisque; */
+        margin: 100px 0px 0px 100px;
+        font-family: "Merriweather", sans-serif;
+        color: rgb(250, 234, 211);
+        font-size: 8rem;
+        text-shadow: 1px 3px 5px rgb(70, 24, 24);
+        padding: 0;
+        margin-bottom: 120px;
+        opacity: 0.65;
+    }
+
+    .quote {
+        color:rgb(250, 234, 211);
+        text-shadow: 1px 3px 5px rgb(70, 24, 24); 
+        font-size: 2rem;
+        position: absolute;
+        bottom: 120px;
+        right: 70px;
+        margin: 10px 15px 5px 0;
+        opacity: 0.65;
+ 
+      }
+
+      .quote-name{
+        color:rgb(250, 234, 211);
+        text-shadow: 1px 3px 5px rgb(70, 24, 24); 
+        font-size: 1.5rem;
+        position: absolute;
+        bottom: 80px;
+        right: 70px;
+        margin: 10px 15px 0 0;
+        opacity: 0.65;
+      }
+
+
+    .Title:hover{
+        color: rgb(192, 166, 126);
+    }
+
+    .section{
+        display: flex;
+        margin: 0px;
+        display: flex;
+        background-color: rgba(22, 20, 20, 0.80);
+        padding:50px;
+    }
+
+    .image-scroll{
+        width: 600px;
+        height: auto;
+    }
+
+    .napoleonimage{
+        padding: 10px;
+        width: 300px;
+        height: 500px;
+    }
+
+    .overview-container{
+        /* background-color: rgb(134, 132, 132); */
+        justify-content: center;
+        color:rgb(250, 246, 239);
+        display: flex;
+        width: 100%;
+        margin-left: 20px;
+        /* padding: 20px; */
+    }
+
+    .overview{
+        /* background-color: rgb(73, 70, 70); */
+        gap: 20px;
+        display: flex;
+        width: 55%; 
+        flex-direction: column;
+        font-size: 2rem;
+        flex-wrap: wrap;
+
+    }
+
+    .overview-list{
+        margin: 20px;
+    }
+
+    .Overview-title{
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .overview-pic{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .section-title{
+        display: flex;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .tactic{  
+        font-size: 2rem;
+        /* background-color: rgb(27, 27, 27, 0.2); */
+        color:rgb(250, 246, 239);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+        padding: 10px;
+        width: 45%;
+    }
+
+    .tactic-body{
+        font-size: 1.5rem;
+        text-indent: 4rem;
+    }
+
+    .reference{
+    width: 300px;
+    height:300px;
+
+    }
